@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height:4rem;
+    width:100%;
+    background-color:gainsboro;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    color:white;
+}
+.inner{
+    height:3rem;
+    width:100%;
+    margin:0.5rem 1rem 0 1rem;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:0.5rem solid black;
+    border-radius:1rem;
+}
+.logo{
+    height:2rem;
+    width:5rem;
+    background-color:black;
+    margin-left:1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.menu{
+    height:2rem;
+    width:25rem;
+    display:flex;
+    justify-content:space-evenly;
+    margin-right:1rem;
+    padding-top:1.2rem;
+}
+.inner a{
+    text-decoration:none;
+    color:whitesmoke;   
+}
+.inner a:hover{
+   color:lightskyblue;
+}
+.search{
+    height:3rem;
+    width:100%;
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.search input{
+    height:2rem;
+    width:50%;
+    padding-left:1rem;
+    border:none;
+    border-radius:0.2rem;
+}
+.icon{
+    height:2rem;
+    width:2rem;
+    background-color: burlywood;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top-right-radius:0.2rem;
+    border-bottom-right-radius:0.2rem;
+}
+.display{
+    height:20rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5rem;
+    margin-bottom:3rem;
+}
+.professional{
+    height:18rem;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+}
+.professional div{
+    height:16rem;
+    width:18rem;
+    border:0.1rem solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:0.5rem;
+}
+.slide{
+    height:18rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    margin-top:5rem;
+    background-image:cover;
+}
+.images{
+    height:16rem;
+    width:50%;
+    background-image:cover;
+    border:0.2 solid black;
+    border-radius:0.2rem;
+}
+.cwi{
+    height:22rem;
+    width:100%;
+    border:0.1 solid black;
+    background-color:darkgray;
+    display:inline-flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:3rem;
+}
+.image{
+    height:18rem;
+    width:30rem;
+    margin:1rem 1rem 1rem 1rem;
+    border:0.1 solid black;
+    border-radius:1rem;
+    background-image:cover;
+}
+.content{
+    height:20rem;
+    width:35rem;
+    background-color:whitesmoke;
+    margin-top:0.2rem;
+}
+.content span{
+    height:100%;
+    width:100%;  
+    font-size:2.5rem;
+}
+.content p{
+    padding-top:3rem;
+    padding-left:1rem;
+    height:10rem;
+    width:100%;
+}
+.footer{
+    height:20rem;
+    width:100%;
+    background-color:whitesmoke;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.fc{
+    height:20rem;
+    width:40rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.fc div{
+    height:6rem;
+    width:6rem;
+}
+.fc div a{
+    text-decoration:none;
+    color:black;
+}
+.fc div a:hover{
+    color:blue;
+}
+.info{
+    margin-right:3rem;
+    height:15rem;
+    width:20rem;
+}
+.ft-last{
+    height:3rem;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    color:white;
+}
